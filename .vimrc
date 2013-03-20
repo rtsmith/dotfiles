@@ -20,6 +20,7 @@ set title
 set scrolloff=3
 set ruler
 set cursorline
+set nowrap
 
 set backspace=indent,eol,start
 
