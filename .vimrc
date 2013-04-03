@@ -1,5 +1,8 @@
 call pathogen#infect()
 
+" Magic?
+set nocompatible
+
 syntax on
 filetype plugin indent on
 
@@ -27,3 +30,5 @@ set backspace=indent,eol,start
 imap jj <Esc>
 
 colorscheme railscasts
+
+map <C-n> :NERDTreeToggle<CR>
