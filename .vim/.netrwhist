@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/rtsmith/dev/boba/app/styles'
-let g:netrw_dirhist_2='/Volumes/Developer-Environments/Tom-Smith/SolidFire/src/SolidFire.Umbraco/macroScripts/FueledBy'
-let g:netrw_dirhist_3='/Users/rtsmith/.vim/bundle/unite.vim'
-let g:netrw_dirhist_4='/Users/rtsmith/dev/boba/app/scripts'
-let g:netrw_dirhist_5='/Users/rtsmith/.dotfiles'
-let g:netrw_dirhist_6='/Users/rtsmith/.vim'
