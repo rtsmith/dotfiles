@@ -24,6 +24,7 @@ set scrolloff=3
 set ruler
 set cursorline
 set nowrap
+set linespace=1
 
 set backspace=indent,eol,start
 
@@ -44,3 +45,4 @@ let g:unite_source_history_yank_enable = 1
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 nnoremap <C-p> :Unite file_rec<cr>
 
+autocmd BufNewFile,BufRead *.master set filetype=html
