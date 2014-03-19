@@ -25,6 +25,11 @@ set ruler
 set cursorline
 set nowrap
 
+" folds
+set foldmethod=indent   "fold based on indent
+set foldnestmax=10      "deepest fold is 10 levels
+set nofoldenable        "dont fold by default
+
 set backspace=indent,eol,start
 
 imap jj <Esc>
