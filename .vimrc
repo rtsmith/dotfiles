@@ -22,6 +22,8 @@ set ruler
 set cursorline
 set nowrap
 
+autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+
 " folds
 set foldmethod=indent   "fold based on indent
 set foldnestmax=5      "deepest fold is 5 levels
