@@ -8,8 +8,9 @@ filetype plugin indent on
 " Convert tabs to spaces
 set expandtab
 
-set tabstop=4
-set shiftwidth=4
+set ts=4
+set sw=4
+set sts=4
 
 set smartindent
 set noswapfile
