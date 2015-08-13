@@ -41,3 +41,9 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+nmap <Leader>w :w<CR>
+imap <Leader>w <Esc>:w<CR>a
+
+nmap <Leader>q :q<CR>
+imap <Leader>q <Esc>:q<CR>a
