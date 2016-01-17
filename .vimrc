@@ -8,9 +8,9 @@ filetype plugin indent on
 " Convert tabs to spaces
 set expandtab
 
-set ts=4
-set sw=4
-set sts=4
+set ts=2
+set sw=2
+set sts=2
 
 set smartindent
 set noswapfile
@@ -23,7 +23,7 @@ set ruler
 set cursorline
 set nowrap
 
-autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+autocmd Filetype python setlocal ts=4 sts=4 sw=4
 
 " folds
 set foldmethod=indent   "fold based on indent
