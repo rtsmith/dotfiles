@@ -12,6 +12,9 @@ set ts=2
 set sw=2
 set sts=2
 
+" vim-airline startup
+set laststatus=2
+
 set smartindent
 set noswapfile
 set number
@@ -42,6 +45,11 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" Quick buffer switching
+map <C-Tab> :bnext<cr>
+map <C-S-Tab> :previous<cr>
+
+" Quick save
 nmap <Leader>w :w<CR>
 imap <Leader>w <Esc>:w<CR>a
 
