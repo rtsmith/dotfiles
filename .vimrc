@@ -37,7 +37,7 @@ set backspace=indent,eol,start
 
 imap jj <Esc>
 
-colorscheme railscasts
+colorscheme molokai
 
 " Quicker window switching
 nnoremap <C-J> <C-W><C-J>
@@ -46,8 +46,8 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 " Quick buffer switching
-map <C-Tab> :bnext<cr>
-map <C-S-Tab> :previous<cr>
+nmap gb :bnext<CR>
+nmap GB :bprevious<CR>
 
 " Quick save
 nmap <Leader>w :w<CR>
