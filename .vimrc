@@ -15,6 +15,8 @@ set sts=2
 " vim-airline startup
 set laststatus=2
 
+colorscheme antares
+
 set smartindent
 set noswapfile
 set number
@@ -23,7 +25,6 @@ set wildmenu
 set title
 set scrolloff=3
 set ruler
-set cursorline
 set nowrap
 
 autocmd Filetype python setlocal ts=4 sts=4 sw=4
@@ -35,15 +36,16 @@ set nofoldenable        "dont fold by default
 
 set backspace=indent,eol,start
 
-imap jj <Esc>
-
-colorscheme molokai
+let g:jsx_ext_required = 0
 
 " Quicker window switching
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" Quick escape
+imap jj <Esc>
 
 " Quick buffer switching
 nmap gb :bnext<CR>
@@ -53,5 +55,13 @@ nmap GB :bprevious<CR>
 nmap <Leader>w :w<CR>
 imap <Leader>w <Esc>:w<CR>a
 
+" Quick quit
 nmap <Leader>q :q<CR>
 imap <Leader>q <Esc>:q<CR>a
+
+" Quick git
+nmap <Leader>gd :Gdiff<CR>
+nmap <Leader>gs :Gstatus<CR>
+nmap <Leader>gc :Gcommit<CR>
+
+nmap <Leader>t :NERDTree<CR>
